@@ -22,7 +22,7 @@ python3 -m venv .venv
 # Use the newly created virtualenv
 source .venv/bin/activate
 # OR use direnv
-direnv activate
+direnv allow
 
 # Install requirements
 pip3 install -r requirements.txt
